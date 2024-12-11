@@ -11,10 +11,10 @@ export default defineConfig({
   server: {
     open: true,
   },
-  // Add this for SPA fallback
   resolve: {
     alias: {
       '@': '/src',
     },
   },
+  base: './', // Ensure relative paths for assets
 });
