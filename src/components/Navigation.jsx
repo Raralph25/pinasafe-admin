@@ -26,7 +26,7 @@ const Navigation = () => {
         {/* Logo */}
         <div className="text-center mb-4">
           <img
-            src="src/assets/img/map.png" // Replace this with the actual path to your logo
+            src="/assets/img/map.png" // Replace this with the actual path to your logo
             alt="PinaSafe Logo"
             className="img-fluid" // Makes the logo responsive
             style={{ maxWidth: '200px' }} // Adjust the logo size if necessary

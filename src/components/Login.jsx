@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 
+
 function LoginPage() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -23,7 +24,7 @@ function LoginPage() {
         minHeight: "100vh", // Ensure full viewport height
         margin: "0", // Remove default margin
         marginLeft: "-255px", // Remove default padding
-        backgroundImage: "url('src/assets/img/bg.jpg')", // Replace with your image URL
+        backgroundImage: "url('/assets/img/bg.jpg')", // Replace with your image URL
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed", // Ensures the background stays fixed while scrolling

@@ -7,6 +7,7 @@ import RealTimeMap from './components/RealTimeMap';
 import Dashboard from './components/Dashboard';
 import BarangayReportsPage from './components/BarangayReport';
 
+
 function App() {
   return (
     <div className="container-fluid vh-100">
